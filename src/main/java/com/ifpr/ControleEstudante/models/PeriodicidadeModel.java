@@ -6,8 +6,8 @@ import java.io.Serial;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "Periodicidades")
-class PeriodicidadeModel implements Serializable {
+@Table(name = "periodicidades")
+public class PeriodicidadeModel implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 

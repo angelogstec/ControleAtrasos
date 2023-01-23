@@ -6,7 +6,7 @@ import java.io.Serial;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "Turnos")
+@Table(name = "turnos")
 public class TurnoModel implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
